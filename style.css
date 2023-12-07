@@ -1,0 +1,61 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 0;
+    color: #FFD700; /* Gold color for the name */
+}
+
+header p {
+    font-size: 1.2em;
+    color: #808080; /* Gray color for the role */
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+    color: #FFD700; /* Gold color for section headers */
+}
+
+section p {
+    line-height: 1.6;
+    color: #CCCCCC; /* Light gray color for text content */
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    color: #CCCCCC; /* Light gray color for list items */
+}
+
+/* Add more styles for other sections as needed */
+
+/* Styles for the toggle button */
+.toggle-btn {
+    background-color: #4CAF50; /* Green color for the button */
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
